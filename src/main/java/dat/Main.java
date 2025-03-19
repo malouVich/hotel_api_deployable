@@ -13,6 +13,7 @@ import org.slf4j.LoggerFactory;
 public class Main {
 
     public static void main(String[] args) {
+        System.out.println("hej");
         ApplicationConfig.startServer(7070);
     }
 }
